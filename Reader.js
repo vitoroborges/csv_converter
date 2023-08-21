@@ -9,7 +9,7 @@ class Reader{
 
     async Read(filepath){
         try{
-            return await this.reader(filepath, 'utf8');
+            return await this.reader(filepath, 'utf-8');
         } catch{
             return undefined;
         }
